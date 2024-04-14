@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 100vh;
+}
+
+.count-card-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 7px;
+  border-width: 0px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-heading {
+  font-family: 'Roboto';
+  font-size: 43px;
+  font-weight: 700;
+}
+.button {
+  border-width: 0px;
+  border-radius: 5px;
+  height: 33px;
+  width: 100px;
+  background-color: #ffffff;
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.para {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
